@@ -265,6 +265,7 @@ img{
 .home__social-link{
     display: inline-flex;
     background-color: var(--first-color-darken);
+    box-shadow: 0 5px 5px rgba(0,0,0,.1);
     color: var(--first-color-lighten);
     font-size: 1.2rem;
     border-radius: 10%;
@@ -645,6 +646,21 @@ img{
 .footer__link:hover{
     background-color: var(--first-color-lighten);
     color: var(--first-color);
+}
+
+.tooltip{
+    position: absolute;
+    background-color: var(--first-color-lighten);
+    font-size: var(--smaller-font-size);
+    color: var(--first-color-darken);
+    padding: .2rem;
+    margin-top: var(--mb-4);
+    border-radius: .2rem;
+    visibility: hidden;
+}
+
+.footer__link:hover .tooltip{
+    visibility: visible;
 }
 
 .footer__copy{
