@@ -396,7 +396,7 @@ img{
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
     font-weight: var(--font-semi-bold);
-    margin-bottom: var(--mb-2);
+    margin-bottom: var(--mb-1);
 }
 
 .button__icon{
