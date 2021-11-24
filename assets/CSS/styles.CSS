@@ -222,7 +222,7 @@ img{
 
 /*===== HOME =====*/
 .home__container{
-    height: calc(100vh - var(--header-height));
+    /*height: calc(100vh - var(--header-height));*/
     align-items: center;
     row-gap: 2 rem;
 }
@@ -291,7 +291,10 @@ img{
 
 /* ===== ABOUT =====*/
 .about__container{
-    row-gap: 2rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .about__data{
@@ -303,7 +306,7 @@ img{
     margin-bottom: var(--mb-2);
 }
 
-.about__information{
+/*.about__information{
     margin-bottom: var(--mb-2);
 }
 
@@ -335,7 +338,7 @@ img{
 
 .about__information-subtitle-small{
     font-size: var(--normal-font-size);
-}
+}*/
 
 /* ===== Experience =====*/
 .experience__container{
@@ -712,9 +715,9 @@ img{
         padding-top: 5rem;
     }
 
-    .about__information{
+    /*.about__information{
         padding-left: 2rem;
-    }
+    }*/
 
     .education__time{
         padding: 0 2rem;
@@ -754,9 +757,7 @@ img{
         left: 0;
     }
 
-    .home__container{
-        height: 100vh;
-    }
+    .home__container,
 
     .section{
         padding: 3rem 0 2rem;
