@@ -251,7 +251,7 @@ img{
     width: 260px;
     height: 260px;
     background-repeat: no-repeat;
-    border-radius: 10%;
+    border-radius: 50%;
     overflow: hidden;
     margin-bottom: var(--mb-2);
 }
