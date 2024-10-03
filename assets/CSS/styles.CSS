@@ -541,7 +541,7 @@ img{
 
 .education__line{
     display: block;
-    height: 75%;
+    height: 65%;
     width: 2px;
     background-color: var(--first-color-darken);
     transform: translate(5px, -4px);
