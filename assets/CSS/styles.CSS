@@ -555,9 +555,10 @@ img{
 }
 
 .project__img{
-    height: 400px;
+    height: 280px;
     width: 280px;
     position: relative;
+    display: flex;
     overflow: hidden;
     border-radius: .5rem;
 }
@@ -690,7 +691,11 @@ img{
     .home__container,
     .experience__container,
     .skills__container,
-    .project__container,
+    .project__container{
+      grid-template-columns: 2fr 1fr 1fr; 
+      padding: 0 2rem; 
+      border-radius: .5rem;
+    }
     .contact__container,
     .contact__inputs{
         grid-template-columns: repeat(2,1fr);
