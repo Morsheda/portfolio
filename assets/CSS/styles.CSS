@@ -691,11 +691,7 @@ img{
     .home__container,
     .experience__container,
     .skills__container,
-    .project__container{
-      grid-template-columns: 2fr 1fr 1fr; 
-      padding: 0 2rem; 
-      border-radius: .5rem;
-    }
+    .project__container,
     .contact__container,
     .contact__inputs{
         grid-template-columns: repeat(2,1fr);
@@ -763,7 +759,9 @@ img{
     }
 
     .home__container,
-
+    .project__container{
+        grid-template-columns: 1.5fr 1.5fr 1.5fr;
+    }
     .section{
         padding: 3rem 0 2rem;
     }
