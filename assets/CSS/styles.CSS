@@ -759,9 +759,7 @@ img{
     }
 
     .home__container,
-    .project__container{
-        grid-template-columns: 1.5fr 1.5fr 1.5fr;
-    }
+    
     .section{
         padding: 3rem 0 2rem;
     }
@@ -769,5 +767,9 @@ img{
     .bd-grid{
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .project__container{
+        grid-template-columns: 1.5fr 1.5fr 1.5fr;
     }
 }
